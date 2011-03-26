@@ -1,0 +1,47 @@
+body          {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; cursor:default; background-color:#ffffff;}
+td            {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+hr            {height:1px; border:0px; border-top:1px solid #666666;}
+form          {margin:0px;}
+img           {border:0px;}
+table.stand   {border-collapse:collapse; width:95%; margin-left:2.5%; margin-right:2.5%;}
+.input        {font-size:11px; background-color:#ffffff; color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif; border:1px solid #555555; padding:1px;}
+.select       {font-size:11px; background-color:#ffffff; color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.tablelight   {font-size:11px; border:1px solid #555555; background-color:#eeeeee; color:#000000;}
+.tabledark    {font-size:11px; border:1px solid #555555; background-color:#e0e0e0; color:#000000;}
+
+td.header     {font-size:11px; border:1px solid #555555; color:#000000; font-weight:bold; background-image:url(./images/header.gif);}
+a.header      {font-size:11px; color:#000000; font-weight:bold; cursor:pointer;}
+a:hover.header{font-size:11px; color:#ffffff; font-weight:bold; cursor:pointer;}
+
+td.subheader     {font-size:11px; color:#000000; font-weight:bold; border:1px solid #555555; background-image:url(./images/subheader.gif);}
+a.subheader      {font-size:11px; color:#000000; font-weight:bold; cursor:pointer; text-decoration:none}
+a:hover.subheader{font-size:11px; color:#000000; font-weight:bold; cursor:pointer; text-decoration:underline}
+
+a.small       {font-size:11px; color:#000000; cursor:pointer;}
+a:hover.small {font-size:11px; color:#000000; text-decoration:none; cursor:pointer;}
+
+a             {color:#000000; cursor:pointer;}
+a.postlink    {font-size:12px; color:#000000; cursor:pointer;}
+a:hover.pages {font-size:11px; color:#CC0000; cursor:pointer;}
+a:hover.pagelinks {color:#CC0000; cursor:pointer;}
+
+td.navover    {font-size:11px; border:1px solid #555555; color:#000000; background-image:url(./images/header.gif);}
+td.nav        {font-size:11px; border:1px solid #555555; color:#000000; background-image:url(./images/headerbw.gif);}
+a.nav         {font-size:11px; color:#000000; text-decoration:none; cursor:pointer; font-weight:bold}
+a.navbold     {font-size:11px; color:#ff0000; text-decoration:none; cursor:pointer; font-weight:bold}
+
+td.footer     {font-size:11px; border:1px solid #555555; background-color:#FF9900; color:#000000;}
+.signature    {font-size:11px; color:#333333;}
+.copyright    {font-size:11px; text-align:center; line-height:14px;}
+.post         {font-size:12px;}
+.quote        {font-size:11px; background-color:#FEFEFE; color:#333333; border:1px #555555 solid;}
+.code         {width:90%; margin-left:5%; margin-right:5%; padding:3px;}
+.codetitle    {font-size:12px; color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding:3px;}
+.codelines    {font-size:11px; background-color:#EEEEEE; color:#333333; border:1px #555555 solid; font-family:Courier New, Courier, serif; text-align:right; float:left; padding:3px;}
+.codedata     {font-size:11px; background-color:#FEFEFE; color:#333333; border:1px #555555 solid; font-family:Courier New, Courier, serif; white-space:nowrap; overflow:auto; padding:3px; border-left:0px;}
+.pages        {font-size:11px; color:#333333;}
+.mbcSelect    {font-size:11px; background-color:#ECECEC; color:#000000;}
+.mbcButton    {font-size:11px; background-color:#ECECEC; color:#000000; border:1px #555555 solid;}
+.stats        {font-weight:bold;}
+.adminstat    {text-align:center;}

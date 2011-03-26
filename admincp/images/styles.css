@@ -1,0 +1,32 @@
+body          {cursor:default}
+body, table,
+tr, td, input, select, option, textarea	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000}
+.input        {font-size:11px; background-color:#FFFFFF; color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif; border:1px solid #555555; padding:1px}
+.select       {font-size:11px; background-color:#FFFFFF; color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif}
+a             {color: #CC0000; text-decoration: none}
+hr            {height:1px}
+form          {margin:0px}
+div.fieldset  {border:1px solid #999999; padding:10px; background-color:#f3f3f3; margin:3px 0px 3px 0px}
+div.legend    {border:1px solid #999999; padding:3px 5px 0px 5px; background-color:#f3f3f3; font-size:12px; font-weight:bold; position:relative; top:-15px; white-space:nowrap; border-bottom:0px; display:inline; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#dddddd, endColorStr=#f3f3f3); height:18px}
+td.header     {font-size:11px; background-color:#FF9900; color:#000000; font-weight:bold; background-image:url(../../skins/default/images//header.gif);}
+td.headerbw   {font-size:11px; background-color:#DDDDDD; color:#000000; background-image:url(../../skins/default/images/headerbw.gif)}
+.subheader    {font-size:11px; background-color:#FF9900; color:#000000; font-weight:bold}
+a:visited.subheader, a:hover.subheader {font-size:9px; background-color:transparent; color:#000000}
+.footer       {font-size:10px; background-color:#FF9900; color:#000000; height:15px}
+a:visited     {color: #990000}
+a:hover       {text-decoration: underline}
+.small        {font-size: 11px}
+.med          {font-size: 14px; font-weight:bold}
+ul            {line-height:150%}
+.tablelight   {font-size:11px; background-color:#EEEEEE; color:#000000}
+.tabledark    {font-size:11px; background-color:#DDDDDD; color:#000000}
+.highlighted  {font-size:11px; background-color:#ff0000; color:#000000}
+.labellight   {font-size:11px; background-color:#EEEEEE; color:#000000; font-weight:bold}
+.labeldark    {font-size:11px; background-color:#DDDDDD; color:#000000; font-weight:bold}
+.tiny         {font-size:10px; font-weight:normal}
+input.free, select.free {display:block; float:left; width:150px; margin:0px; margin-bottom:10px}
+input.freec {display:block; float:left; margin:0px; margin-bottom:10px; padding:0px}
+label.free {display:block; float:left; width:100px; text-align:right; padding-right:20px}
+br.free {clear:left}
+div.admin_tree {font-weight:bold; float:left;}
+div.admin_help {font-weight:lighter; float:right;}

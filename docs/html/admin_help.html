@@ -1,0 +1,402 @@
+<!-- $Id: admin_help.html,v 1.4 2006/08/03 19:24:36 jon Exp $ -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>MercuryBoard Admin CP Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type='text/css'>
+body    {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#000000; cursor:default; padding:0px; background-color:#ffffff; background-image:url(./images/bg.gif); background-repeat:repeat-x}
+td      {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#000000; line-height:115%}
+
+a       	{
+	color:#CC0000;
+	text-decoration: none;
+}
+a:visited     {color: #990000}
+a:hover       {text-decoration: underline}
+a:visited.subheader, a:hover.subheader {font-size:9px; background-color:transparent; color:#000000}
+
+hr      {height:1px; border:0px; border-top:1px dashed #999999}
+li      {line-height:130%}
+
+.large  {font-size:18px; font-weight:bold; display:block; width:95%; background-color:#eeeeee; border:1px dashed #999999; padding:5px}
+.medium {font-size:14px; font-weight:bold}
+.small  {font-size:10px}
+
+.justify {text-align:justify}
+div.fieldset  {border:1px solid #999999; padding:10px; background-color:#f3f3f3; margin:3px 0px 3px 0px}
+div.legend    {border:1px solid #999999; padding:3px 5px 0px 5px; background-color:#f3f3f3; font-size:12px; font-weight:bold; position:relative; top:-15px; white-space:nowrap; border-bottom:0px; display:inline; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#dddddd, endColorStr=#f3f3f3); height:18px}
+
+</style>
+</head>
+
+<body>
+<!-- Header -->
+<span class="large">MercuryBoard Admin CP Help</span><br><br>
+
+<!-- Intro text -->
+<div class="justify">
+The Admin CP is a very powerful control over how your board functions and how you can
+personalize the board to suit your own needs.<br> 
+Below, is the exact layout of how your Admin CP looks like, just click
+on the feature you want to find out more about.
+<br/>
+<br/>
+
+<!-- Admin CP layout -->
+<table width='80%'>
+<tr>
+<td bgcolor='#EEEEEE'>
+<table width='100%' cellpadding='5' cellspacing='0' border='0'>
+<tr>
+	<td valign='top' width='50%'>
+			<div class='fieldset'>
+			<div class='legend'>Forums &amp; Categories</div><br />
+			<a href='#forums_add'>Create a forum</a><br />
+			<a href='#forums_edit'>Edit a forum</a><br />
+			<a href='#forums_delete'>Delete a forum</a><br />
+			<a href='#forums_order'>Change the forum ordering</a><br />
+			<a href='#forums_count'>Recount topics &amp; replies</a>
+			</div><br />
+
+			<div class='fieldset'>
+			<div class='legend'>Emoticons</div><br />
+			<a href='#emot_control_import'>Install emoticons</a><br />
+			<a href='#emot_control_add'>Add emoticons</a><br />
+			<a href='#emot_control_edit'>Edit or delete emoticons</a>
+			</div><br />
+			
+			<div class='fieldset'>
+			<div class='legend'>Groups</div><br />
+			<a href='#groups_add'>Create a group</a><br />
+			<a href='#groups_edit'>Edit a group's name</a><br />
+			<a href='#groups_perms'>Edit a group's permissions</a><br />
+			<a href='#groups_delete'>Delete a group</a>
+			</div><br />
+
+			<div class='fieldset'>
+				<div class='legend'>Members</div><br />
+					<a href='#members_profile'>Edit a member</a><br />
+					<a href='#members_delete'>Delete a member</a><br />
+					<a href='#members_perms'>Edit a member's permissions</a><br />
+					<a href='#titles_add'>Add automatic member titles</a><br />
+					<a href='#titles_edit'>Edit or delete automatic member titles</a><br />
+					<a href='#ban_ip'>Ban IP addresses</a><br />
+					<a href='#mass_mail'>Send an email to your members</a><br />
+					<a href='#membercount'>Fix the member statistics</a>
+			  </div>
+			</td>
+			<td valign='top'>
+				<div class='fieldset'>
+					<div class='legend'>Database</div><br />
+						<a href='#backup_create'>Backup the database</a><br />
+						<a href='#backup_restore'>Restore a backup</a><br />
+						<a href='#settings_db'>Edit connection settings</a><br />
+						<a href='#optimize'>Optimize the database</a><br />
+						<a href='#query'>Execute an SQL query</a>
+			  </div><br />
+
+					<div class='fieldset'>
+					<div class='legend'>Skins</div><br />
+						<!-- <a href='#templates_upgrade'>Upgrade a Skin</a><br /> -->
+						<a href='#templates_html'>Edit HTML templates</a><br />
+						<a href='#templates_skin'>Create a skin</a><br />
+						<a href='#templates_editskin'>Edit or delete a skin</a><br />
+						<a href='#templates_load'>Install a skin</a><br />
+						<a href='#templates_export'>Export a skin</a><br />
+			  </div><br />
+
+						<div class='fieldset'>
+						<div class='legend'>Help Articles</div><br />
+						<a href='#help_new'>Create a help article</a><br />
+						<a href='#help_edit'>Edit a help article</a><br />
+						<a href='#help_delete'>Delete a help article</a>
+						</div><br />
+
+						<div class='fieldset'>
+							<div class='legend'>Settings</div><br />
+							<a href='#settings_basic'>Edit board settings</a><br />
+							<a href='#censoring'>Censor words</a><br />
+							<a href='#php_info'>View PHP information</a><br />
+							<a href='#logs'>View moderator actions</a><br />
+							<a href='#stats'>Statistics center</a>
+						</div>
+			</td>
+		  </tr>
+		</table>
+	</tr>
+</table>
+<hr>
+
+<!-- Forums & Categories -->
+<p><span class="medium">Forums &amp; Categories</span><br>
+    <br>
+    <a name="forums_add"><b>Create a Forum</b></a><br>
+  Creating a forum is crucial if you want to allow users to post topics in specific areas. <b>However</b>,
+  you<br/>
+  need to create a category first in which you place the forums under. To do this you have to create a <br>
+  forum with the top drop down menu saying 'Create a category'. After you have created a category you<br>
+  can then add forums under the categories by selecting it in the drop down menu when creating a new <br>
+  forum. If you want to go one step further you can create sub-forums by selecting the forum in the drop<br>
+  down box. MercuryBoard is built so you can have as many categories, forums, sub-forums as you like <br>
+  and can even continue adding forum under sub-forums until you are happy!<br>
+  <br>
+  At the bottom of the page there is another drop down menu called quick permissions. This enables you<br>
+  to select another forum already built and use the permission that you might of set for groups on that<br>
+  forum for this one.
+  <br>
+  <br>
+  <em>note</em>:When creating a category, the description will not be shown so it is unnecessary for you to add one!<br>
+  <br/>
+  <a name="forums_edit"><b>Edit a Forum</b></a><br/>
+  After selecting which forum or cato gory you wish to edit by simply clicking on the hyperlink you to can change <br>
+  the: Parent Category, Forum Name and Forum Description.
+  <br>
+  <br>
+  <a name="forums_delete"><b>Delete a Forum</b></a><br>
+  Deletes
+  </b></a>any forum or category you choose by clicking on the correct hyperlink. <strong>This action cannot be<br> 
+  reversed.</strong>
+  <br>
+  <br>
+  <a name="forums_order"><b>Change the forum ordering</b></a><br>
+  The important fact to remember when using this feature is that all numbering should start at 0. The ordering<br>
+  of the categories is separate from the order of the forums under the categories, this means that under each<br>
+  category the numbering should start at zero every time.
+  <br> 
+  <br>
+  <a name="forums_count"><b>Recount topics &amp; replies</b></a><br>
+  When topics and posts have been deleted sometimes the board statistics are wrong, this can be fixed by<br>
+  running this feature.
+  <hr>
+  <!-- Emoticons -->
+  <br>
+  <span class="medium">Emoticons</span><br>
+    <br>
+	<a name='emot_control_import'><b>Install Emoticons</b></a><br>
+  If you have a skin other than Candy Corn installed you may wish to install the emoticons that come with<br>
+  the skin. This features allows you to install them without the hassle of setting up their unique names etc.<br>
+  it will take the names that the skinner already has preset.
+  <br>
+  <br>
+  <a name='emot_control_add'><b>Add Emoticons</b></a><br>
+  This tool allows you to manually add emoticons to the set you already have installed. There are three<br>
+  attributes that you need to add: Text - this is the description of the emoticon you are adding, Image -<br>
+  select the image file that you have inserted into the emoticons directory under skins, and finally Clickable<br>
+  - if you check this box then if will be added to the clickable smilies box when you post.
+  <br>
+  <br>
+  <a name='emot_control_edit'><b>Edit or Delete Emoticons</b></a><br>
+  This feature will show you a list of the current emoticons installed and what attributes they have. You can<br>
+  go on to edit or delete them deciding on what hyperlink you click.  
+  <hr>
+  <!-- Groups -->
+  <br>
+  <span class="medium">Groups</span><br>
+    <br> 
+   <a name='groups_add'><b>Create a group</b></a><br>
+   Groups are very powerful when it comes to managing a big community. They are allow you to place all the<br>
+   members which should have the same permissions under one group permissions rather than having to change <br>
+   member permission for each one them. When creating a group you will be faced with two boxes, one will say<br>
+  'new user groups name' and the other say 'based on'. In the first box you simply place the name you wish your<br>
+  group to be called. In the second you will have a drop down list of current groups, use this to copy the groups basic<br>
+  permissions to your new group - so select the group which is closes to the group permissions you wish to create.
+  <br>
+  <br>
+  <a name='groups_edit'><b>Edit a group's name</b></a><br>
+  You may wish to edit a group you have created or one of the default groups. First, just select the group you <br>
+  wish to edit and press submit. Now you should be able to change the group type, name and display formatting. <br>
+  The first, group type, you will find that you cannot edit this because it is the name of the board constants used <br>
+  in the PHP code. You can edit the group name and how it is formatted, so if it is bold, italic, blue, orange, etc.
+  <br>
+  <br>
+  <a name='groups_perms'><b>Edit a group's permissions</b></a><br>
+  This feature allows you to set group permission which is the fundamental reason for using groups.
+  <br>
+  <br>
+  <a name='groups_delete'><b>Delete a group</b></a><br>
+  Just select a group to delete and then press confirm to delete. Be careful when deleting groups especially<br>
+  the default groups. 
+   <hr>
+  <!-- Members -->
+  <br>
+  <span class="medium">Members</span><br>
+    <br> 
+  <a name='members_profile'><b>Edit a member</b></a><br>
+  You can edit a members profile through this feature.
+  <br>
+  <br>
+  <a name='members_delete'><b>Delete a member</b></a><br>
+  Deleting a member will remove them from being able to use the board with the username and password, <br>
+  you could just change the group to banned. If you still wish to delete the member then it is a good idea to<br>
+  use the 'Fix the member statistics' feature.<br>
+  <br>
+  <a name='members_perms'><b>Edit a member's permission</b></a><br>
+  Group permissions are usual good enough to handle your every day needs but if you wish to set permissions<br>
+  just for a specific user then this feature allows you to do this. <strong>Remember:</strong> You need to untick the top box<br>
+  with the red dashed border saying 'use only group permissions' otherwise your changes will have no effect. 
+  <br>
+  <br>
+  <a name='titles_add'><b>Add automatic member titles</b></a><br>
+  The default titles are: Newbie,  Member, MercuryBoarder, Full Member, Mercury Guru and these all work off<br>
+  how many posts you have made. Adding titles is very easy when using this feature because all you have to<br>
+  submit is the title name, image and minimum post count. The default images are the five dots seen underneath<br>
+  the members avatar else under their member title. <em>If you wish to edit the existing member titles please use <br>
+  the feature described below. </em>
+  <br>
+  <br>
+  <a name='titles_edit'><b>Edit or delete automatic member titles</b></a><br>
+  This feature is very powerful but can be very damaging if not used correctly. The key rule here is <strong>it is better<br>
+  to edit the existing titles than <em>deleting</em> them.</strong> Here is where you can edit the names of the titles and change<br>
+  there image and minimum posts. Also remember that the board uses the titles so <strong>you must not delete all of <br>
+  them.</strong>
+  <br>
+  <br>
+  <a name='ban_ip'><b>Ban IP addresses</b></a><br>
+  Some members or guests might wish to spam your board or make a nuisance of themselves so banning their<br>
+  IP might be the only answer. Their IP is shown at the bottom of all posts they make, if you notice there is<br>
+  always one digit which changes then you can use a * as a wildcard. If you find it is a member that is causing<br>
+  you problems then you can change their group to banned but <strong>do not place the Guest account into the banned<br>
+  group. </strong> 
+  <br>
+  <br>
+  <a name='mass_mail'><b>Send an email to your members</b></a><br>
+  This is a mass email system that will send email to members which are in selected groups, you choose the<br>
+  groups you wish to send the email to on the send form under 'Recipient Groups'. Members often find this <br>
+  feature useful if they do not visit the board on a day to day basis so an email from the admin about recent<br> 
+  announcements can be helpful. <strong>However,</strong> over use of this feature can upset some members who do not wish<br>
+  to keep receiving emails, so use this feature sparingly.
+  <br>
+  <br>
+  <a name='membercount'><b>Fix the member statistics</b></a><br>
+  After deleting members the board might not update the member statistics so running this feature will keep them<br>
+  up to date.
+   <hr>
+  <!-- Database -->
+  <br>
+  <span class="medium">Database</span><br>
+  <br> 
+  <a name='backup_create'><b>Backup the database</b></a><br>
+  Backing up the database creates a file, 'mb-<em>date</em>.mbb', which can be used to restore your database settings when<br>
+  you last backed up. This allows you to keep a backup of your board safe just incase your server crashes and looses<br>
+  all your MySQL data, which can happen from time to time. It is usually recommended to backup your database before<br>
+  upgrading and then straight after upgrading. <strong>If you upgrade and the a table structure changes then your old <br>
+  backups will not work without editing them, so backup straight after an upgrade. </strong>
+  <br>
+  <br>
+  <a name='backup_restore'><b>Restore a backup</b></a><br>
+  If you have backed up your board and have a MercuryBoard Backup file (.mbb) then you can use this feature to <br>
+  restore all database settings to those when you backed up.
+  <br>
+  <br>
+  <a name='settings_db'><b>Edit connection settings</b></a><br>
+  When you first installed MercuryBoard you had to submit your database connection settings, this is where you can<br>
+  edit those you settings if they change.
+  <br>
+  <br>
+  <a name='optimize'><b>Optimize the database</b></a><br>
+  <em>OPTIMIZE TABLE should be used if you have deleted a large part of a table or if you have made many changes<br> 
+  to a table with variable-length rows (tables that have VARCHAR, BLOB, or TEXT columns). Deleted records<br> 
+  are maintained in a linked list and subsequent INSERT operations reuse old record positions. You can use <br>
+  OPTIMIZE TABLE to reclaim the unused space and to defragment the data file. - from MySQL Reference Manual<br>
+  <br>
+  </em>MercuryBoard very rarely performs big changes to tables structures and data structures so this feature does not <br>
+  generally need to be used, as recommended:<br>
+  <br>
+  <em>Even if you do a lot of updates to variable-length rows, it's not likely that you need to do this more than once a <br>
+  week or month and only on certain tables. - from MySQL Reference Manual</em>   <br>
+  <br>
+  This means that you do not need to much notice about this feature unless you are MODing the board or have a <br>
+  seriously big forum!
+  <br>
+  <br>
+  <a name='query'><b>Execute an SQL query</b></a><br>
+  Allows you to perform queries on the MySQL database without needing a MySQL command line or web tool. 
+   <hr>
+  <!-- Skins -->
+  <br>
+  <span class="medium">Skins</span><br>
+  <br> 
+  <a name='templates_html'><b>Edit HTML templates</b></a><br>
+  All the HTML for the board is kept in what is known as the HTML templates. These are rows in the MySQL <br>
+  database which are called when needed. You can edit the templates through this feature and they are <br>
+  sorted out into categories. If you also know PHP you can add if conditionals and variables into the templates<br>
+  to help you make a new skin or add features. Before editing the templates it is a good idea to create a new<br>
+  skin. <em>- see below</em>  <br>
+  <br> 
+  <a name='templates_skin'><b>Create a skin</b></a><br>
+  Before editing any HTML templates it is always a good idea to create a new skin, then you have the choice<br>
+  between the default skin (candy corn) or the new one you created. A skin is just the collection of templates.
+  <br>
+  <br> 
+  <a name='templates_editskin'><b>Edit or delete a skin</b></a><br>
+  If you wish to change the name of a skin you have created or change the directory name where it is kept<br>
+  then this will help. You can edit the name of the skin, the directory of where the skin is kept and at the bottom<br>
+  there is a tick box if you wish to delete the selected skin. 
+  <br>
+  <br> 
+  <a name='templates_load'><b>Install a skin</b></a><br>
+  MercuryBoard has a powerful skinning system which allows you to install skins that other people have created.<br>
+  To do this all you have to have is the MercuryBoard skin file (.mbs) and just let it do the rest! <br>
+  This means you can install pre-made skins and even share your skin with everyone else, <em>to do this see export<br>
+  skins below.</em>
+  <br>
+  <br> 
+  <a name='templates_export'><b>Export a skin</b></a><br>
+  This is the feature that will allow you to show your skin off to others, just click on this link and then select the<br>
+  skin you want to export. Then just show off using the .mbs file. 
+   <hr>
+  <!-- Help -->
+  <br>
+  <span class="medium">Help Articles</span><br>
+  <br> 
+  <a name='help_new'><b>Create a help article</b></a><br>
+  Help articles are displayed in the help section on the board, along side the search feature. You can create a <br>
+  help article for your board by using this feature. First you need to create a title, this will also become a link<br>
+  at the top of the help page for uses to jump down to get to your article. After that you just need to type your<br>
+  article up, <strong>remember that HTML is needed</strong> to format your article for example, a line break needs the HTML<br>
+  tag '&lt;br /&gt;'.
+  <br>
+  <br> 
+  <a name='help_edit'><b>Edit a help article</b></a><br>
+  You may wish to edit an already existing help article, all you have to do is to select the title of the article you<br>
+  wish to edit. Looking at the default articles might help you understand how the help system works. 
+  <br>
+  <br> 
+  <a name='help_delete'><b>Delete a help article</b></a><br>
+  This allows you to delete existing help articles that you might not want to be displayed anymore.
+   <hr>
+  <!-- Settings -->
+  <br>
+  <span class="medium">Settings</span><br>
+  <br>
+  <a name='settings_basic'><b>Edit board settings</b></a><br>
+  This is the control center of your board and what settings it has, even if you have no desire to change your<br>
+  settings it is always worth having a look at this feature. Within the feature you can: open or close the board,<br>
+  make a closed notice, change its name, attachments, attachment file extensions, topics per page, posts per page,<br>
+  email validation and a whole lot more!! 
+  <br>
+  <br>
+  <a name='censoring'><b>Censor Words</b></a><br>
+  Censoring words can be an important feature if you wish to keep the language on the board clean but want members<br>
+  to say what they want. A wildcard can also be used in this feature but be careful that you don't censor every word! 
+  <br>
+  <br>
+  <a name='php_info'><b>View PHP information</b></a><br>
+  This page will show you all the information about the PHP installation built on your server. It uses the basic phpinfo()<br>
+  function to show you all the statistics about the zend engine and should show you how MySQL has been configured<br>
+  to work with PHP. Some hosts may have disabled this so you might just get an error message telling you this.
+  <br>
+  <br>
+  <a name='logs'><b>View moderator actions</b></a><br>
+  All moderator actions performed on the board is recorded and logged in this log. It will show when the action <br>
+  was performed, whish user performed it, the action performed and what topic it has been performed on. This <br>
+  is a good way of looking after what your moderator team is doing. 
+  <br>
+  <br>
+  <a name='stats'><b>Statistics center</b></a><br>
+  The center will show you two graphs, one showing posts by month and the other showing registrations by month.<br>
+  However, you need to have the correct GD libraries installed to view this page. </div>
+</body>
+</html>
