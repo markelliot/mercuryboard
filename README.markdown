@@ -42,8 +42,8 @@ Requirements
 
 License
 -------
- This software is released under the GNU General Public License (GPL). For the
- terms of the license, see the file docs/license.txt included in this
+ This software is released under the GNU General Public License v2 (GPL). 
+ For the terms of the license, see the file docs/COPYING.txt included in this
  distribution. The license is also available in many languages at
  http://www.gnu.org
 
